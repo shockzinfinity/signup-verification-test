@@ -1,0 +1,21 @@
+{
+  "AppSettings": {
+    "Secret": "",
+    "EmailFrom": "",
+    "SmtpHost": "",
+    "SmtpPort": "",
+    "SmtpUser": "",
+    "SmtpPassword": ""
+  },
+  "ConnectionStrings": {
+    "signupDatabase": "Data Source=localhost;User ID=sa;Password=********;Initial Catalog=signup;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}

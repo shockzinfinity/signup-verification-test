@@ -31,7 +31,7 @@ namespace signup_verification.Services
 
       using (var smtp = new SmtpClient())
       {
-        smtp.Connect(_appSettings.SmtpHost, _appSettings.SmtpPort, SecureSocketOptions.StartTls);
+        smtp.Connect(_appSettings.SmtpHost, _appSettings.SmtpPort, SecureSocketOptions.Auto);
         smtp.Authenticate(_appSettings.SmtpUser, _appSettings.SmtpPassword);
         smtp.Send(email);
         smtp.Disconnect(true);
